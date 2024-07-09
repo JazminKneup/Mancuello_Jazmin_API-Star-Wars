@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .container label {
+    margin-right: 10px;
+  }
+  
+  .container select, 
+  .container input, 
+  .container button {
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .container select:hover, 
+  .container input:hover, 
+  .container button:hover {
+    background-color: #666;
+  }
+  
+  .container select:focus, 
+  .container input:focus, 
+  .container button:focus {
+    outline: none;
+    border-color: #ddd;
+  }
+  
+  .container button {
+    cursor: pointer;
+  }
+  
+  .container button:active {
+    background-color: #777;
+  }
+  
+  .container select {
+    min-width: 150px;
+  }
+  
